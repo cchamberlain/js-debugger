@@ -1,7 +1,7 @@
-node-debugger package
-==============================
+js-debugger package
+===================
 
-> A simple Node.js/io.js debugger for daily use.
+> Fork of js-debugger aimed at more general debugging of javascript, client and server
 
 ## Usage
 
@@ -22,24 +22,24 @@ Execute start-resume (F5) again to resume debugging or use the step-next (F10), 
 You may access the commands using CMD/Ctrl+p or by using the shortcut key specified within the brackets.
 
 ```js
-'node-debugger:start-resume' (F5)
-'node-debugger:stop' (shift-F5)
-'node-debugger:toggle-breakpoint' (F9)
-'node-debugger:step-next' (F10)
-'node-debugger:step-in' (F11)
-'node-debugger:step-out' (shift-F11)
+'js-debugger:start-resume' (F5)
+'js-debugger:stop' (shift-F5)
+'js-debugger:toggle-breakpoint' (F9)
+'js-debugger:step-next' (F10)
+'js-debugger:step-in' (F11)
+'js-debugger:step-out' (shift-F11)
 ```
 
 ## Configuration
 
-The following attributes can be set to control the node-debugger.
+The following attributes can be set to control the js-debugger.
 
 * nodePath - path to node.js executable
 * appArgs - arguments sent to the application during launch
 * debugPort - the port used to communicate to the launched process
- 
+
 ```js
-"atom-node-debugger":
+"js-debugger":
   nodePath: "C:/program/nodejs/node.exe"
   appArgs: ""
   debugPort: 5860
@@ -47,7 +47,7 @@ The following attributes can be set to control the node-debugger.
 
 ## Feedback
 
-Please click [here](https://github.com/kiddkai/atom-node-debugger/issues/new)
+Please click [here](https://github.com/cchamberlain/js-debugger/issues/new)
 to provide me more suggestions to improve this debugger, thanks :D
 
 ## Todo
